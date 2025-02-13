@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'Exo 2', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #38a019, #d57a19);
+    text-align: center;
+}
+
+header{
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;    
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: #11be14;
+}
+
+#sobre{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+#sobre img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.8);
+}
+
+#sobre ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#sobremim h2{
+    text-align: center;
+}
+
+#sobremim .sobremim{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#sobremim ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1150px, 1fr));
+    gap: 10px;
+    padding: 50px;
+}
+
+
+#contato h2{
+    text-align: center;
+}
+#contato form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+}
+
+input, textarea{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    background-color: #0aa2ee;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+button:hover{
+    background-color: #320776e7;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+footer a:hover{
+    color: #feb47b;
+}
